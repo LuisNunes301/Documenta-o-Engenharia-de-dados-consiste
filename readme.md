@@ -39,6 +39,9 @@ Este guia é dividido em seções, cada uma abordando um tópico específico, de
 
 Aqui, você encontrará informações sobre como **preparar o ambiente de trabalho**, **instalar utilitários e bibliotecas essenciais**, além de instruções para a **execução de tarefas de engenharia de dados**, como **gerenciamento de arquivos** e utilização de **migradores de dados**.
 
+### Fluxograma da Engenharia de Dados
+![a](/assets/fluxograma.png)
+
 ### Estrutura do Guia:
 
 - **Objetivos**: Apresenta os principais objetivos deste guia, destacando as metas que você deve alcançar ao seguir estas diretrizes.
@@ -129,7 +132,7 @@ pip install openpyxl pandas beautifulsoup4 requests ipykernel lxml selenium
 - ls - Listar arquivos do diretorio corrente
 - cat x.csv - Exibe conteudo de um arquivo
 - file --mime-encoding` NOMEARQUIVO.csv
-- find . -type f -exec wc -l {} +
+- find . -type f -exec wc -l {} + - Lista a quantiade de linhas do documento na pasta vigente.
 ```
 ### 5. Como Cortar Arquivos Rápido sem Modificar.
  ```bash
@@ -356,6 +359,7 @@ Para contribuir com este documento, por favor, siga as seguintes etapas:
 3. Se você precisar fazer alguma alteração no documento, por favor, faça um fork do repositório e envie um pull request com as alterações.
 
 Agradecemos sua contribuição!
+> Feito por **Luis Vinicius Nunes Silva**, com contribuição de Michael shumaker, Lucas Arruda, Thiago Calmon.
 
 [def]: #1-introdução
 [def2]: #2-objetivos
