@@ -123,13 +123,13 @@ pip install openpyxl pandas beautifulsoup4 requests ipykernel lxml selenium
 
 ### 4. Comandos Necessários para Sobreviver.
 ```bash
-- `cd` - Mudar de diretório
-- `rm` - Remover arquivos
-- `sh -T arquivo` - Executar um script shell
-- `ls` - Listar arquivos do diretorio corrente
-- `cat arquivo` - Exibe conteudo de um arquivo
-- `file --mime-encoding` NOMEARQUIVO.csv
-- $ find . -type f -exec wc -l {} +
+- cd - Mudar de diretório
+- r` - Remover arquivos
+- sh -T arquivo` - Executar um script shell
+- ls - Listar arquivos do diretorio corrente
+- cat x.csv - Exibe conteudo de um arquivo
+- file --mime-encoding` NOMEARQUIVO.csv
+- find . -type f -exec wc -l {} +
 ```
 ### 5. Como Cortar Arquivos Rápido sem Modificar.
  ```bash
