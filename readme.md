@@ -9,13 +9,13 @@
 3. [Programas, Frameworks e Bibliotecas Necessários.][def3]  
    - 3.1 [Ferramentas Requeridas na Máquina.][def4]  
       - 3.1.1 [Visual Studio Code][def5]  
-      3.1.2 [Python][def6]  
-      3.1.3 [Java e JDK][def7]  
-      3.1.4 [Eclipse][def8]  
-      3.1.5 [Postman e Elastic][def9]  
-      3.1.6 [Git][def10]  
-      3.1.7 [Notepad++][def11]  
-      3.1.8 [Emditor][def12]
+      - 3.1.2 [Python][def6]  
+      - 3.1.3 [Java e JDK][def7]  
+      - 3.1.4 [Eclipse][def8]  
+      - 3.1.5 [Postman e Elastic][def9]  
+      - 3.1.6 [Git][def10]  
+      - 3.1.7 [Notepad++][def11]  
+      - 3.1.8 [Emditor][def12]
 4. [Comandos Necessários para Sobreviver.][def13]
 5. [Como Cortar Arquivos Rápido sem Modificar.][def14]
 6. [Qual Migrador Usar?][def15]
@@ -129,6 +129,7 @@ pip install openpyxl pandas beautifulsoup4 requests ipykernel lxml selenium
 - `ls` - Listar arquivos do diretorio corrente
 - `cat arquivo` - Exibe conteudo de um arquivo
 - `file --mime-encoding` NOMEARQUIVO.csv
+- $ find . -type f -exec wc -l {} +
 ```
 ### 5. Como Cortar Arquivos Rápido sem Modificar.
  ```bash
